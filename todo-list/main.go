@@ -98,7 +98,7 @@ func main() {
 func showTask(lista TaskList) {
 
 	fmt.Println("Lista de Tareas:")
-	fmt.Println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+	fmt.Println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 
 	for index, task := range lista.tarea {
 		fmt.Printf(
@@ -110,6 +110,6 @@ func showTask(lista TaskList) {
 		)
 	}
 
-	fmt.Println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+	fmt.Println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 
 }
